@@ -1,0 +1,27 @@
+.header{
+    position: fixed;
+    background-color: #8a2b06;
+    top: 0;
+    color: white;
+    width: 95%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+.main-page{
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.main-page img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+}
