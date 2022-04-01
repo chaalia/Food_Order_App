@@ -13,3 +13,8 @@ color: black;
 .meal .price{
     color:brown
 }
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

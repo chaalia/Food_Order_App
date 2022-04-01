@@ -1,4 +1,16 @@
 .forms{
     color: #000;
     display: flex;
+    display: flex;
+    flex-direction: column;
+}
+.forms button{
+        background-color: brown;
+        color: aliceblue;
+        width: 10rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        margin: 1px;
+        font-size: 1.2rem;
+        font-weight: bold;  
 }
