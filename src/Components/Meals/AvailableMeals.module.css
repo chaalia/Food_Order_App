@@ -1,0 +1,21 @@
+.meals{
+    width: 60%;
+    height: 100%;
+    padding: 0;
+    margin: 2rem auto;
+    background-color: rgb(83, 78, 78);
+    color: red;
+    animation: meals-appear 1s ease-out forwards;
+}
+.meals ul {
+    list-style: none;
+    padding: 10;
+    margin: 10;
+}
+
+@keyframes meals-appear {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }  
+}

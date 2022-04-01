@@ -1,0 +1,15 @@
+.meal{
+    color: forestgreen;
+
+}
+.meal h3{
+color: black;
+}
+.meal .description{
+
+    color: blueviolet;
+    
+}
+.meal .price{
+    color:brown
+}
