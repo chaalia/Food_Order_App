@@ -8,21 +8,16 @@ const Cart = ( props ) => {
     }].map((item) => <li key={item.id}>{item.name}</li>
     )}</ul>
 
-    const orderHandler = () => {
-        return (
-        console.log( "hellox  ")
-        )}
-
     return (
-        <Modal>
+        <Modal onHidecart={props.onHidecart}>
             {cartItems}
                 <div className={classes.total}>
                     <span>Totam amount</span>
                     <span>$20.00</span>
                 </div>
                 <div className={classes.actions}>
-                    <button className={classes['button-alt']}>Close</button>
-                    <button className={classes.button} onClick={orderHandler}>Order</button>
+                    <button className={classes['button-alt']} onClick={props.onHidecart}>Close</button>
+                    <button className={classes.button}>Order</button>
                 </div>
         </Modal>
     );
