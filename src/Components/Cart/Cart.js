@@ -12,7 +12,7 @@ const Cart = ( props ) => {
         <Modal onHidecart={props.onHidecart}>
             {cartItems}
                 <div className={classes.total}>
-                    <span>Totam amount</span>
+                    <span>Total amount</span>
                     <span>$20.00</span>
                 </div>
                 <div className={classes.actions}>
